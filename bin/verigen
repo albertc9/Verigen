@@ -21,6 +21,8 @@ Usage:
   verigen -s dut.v                Generate netlist (dut.json) and SVG, then delete SVG.
   verigen --version               Display the version of Verigen.
   verigen -help                   Display this help message.
+
+  .q                              Exit Verigen shell.
 "
 
 # 进入 Verigen Shell 交互模式
@@ -34,11 +36,12 @@ function enter_shell() {
     echo "   \ \__/ /     \ \_______\ \__\\ _\\ \__\ \_______\ \_______\ \__\\ \__\  "
     echo "    \|__|/       \|_______|\|__|\|__|\|__|\|_______|\|_______|\|__| \|__|  "
     echo
-    echo "========================================================================"
-    echo "                   Welcome to Verigen v$VERIGEN_VERSION"
-    echo "                       Type '.q' to exit this shell."
-    echo "                   Type '.help' to display help message."
-    echo "========================================================================"
+    echo "===================================="
+    echo "Welcome to Verigen v$VERIGEN_VERSION"
+    echo "ALBERT BROUGHT ME TO LIFE!"
+    echo "------------------------------------"
+    echo "Type '.help' to display help message."
+    echo "===================================="
 
     # 设置环境变量，只在当前会话有效
     set_env_variables
@@ -101,10 +104,10 @@ function show_version() {
 
 # 解析用户输入参数
 case "$1" in
-    "-help" | "--help")
+    "-help" | "--help" | "-h")
         echo "$HELP_TEXT"
         ;;
-    "--version")
+    "--version" | "-v" | "-V" | "--v")
         show_version
         ;;
     "")
@@ -117,7 +120,7 @@ case "$1" in
         fi
         generate_netlist "$2"
         ;;
-    "-j")
+    "-j" | "-json")
         if [[ -z "$2" ]]; then
             echo "Error: No Verilog file provided."
             exit 1
@@ -125,7 +128,7 @@ case "$1" in
         generate_netlist "$2"
         rm -f "${2%.v}.svg"
         ;;
-    "-s")
+    "-s" | "-svg")
         if [[ -z "$2" ]]; then
             echo "Error: No Verilog file provided."
             exit 1
