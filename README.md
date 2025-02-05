@@ -30,7 +30,7 @@
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/yourusername/verigen.git
+   git clone https://github.com/albertc9/Verigen.git
    cd verigen
    ```
 
