@@ -14,7 +14,7 @@ HELP_TEXT="
 Verigen v$VERIGEN_VERSION - A powerful Verilog automation tool
 
 Usage:
-  verigen                        Enter Verigen interactive shell.
+  verigen                         Enter Verigen interactive shell.
   verigen testbench.v dut.v       Run Verilog simulation using iverilog & vvp.
   verigen -a dut.v / -all         Generate netlist (dut.json) and SVG (dut.svg).
   verigen -j dut.v                Generate only netlist (dut.json), no SVG.
@@ -26,19 +26,19 @@ Usage:
 # 进入 Verigen Shell 交互模式
 function enter_shell() {
     clear
-    echo " ___      ___ _______   ________  ___  ________  _______   ________      "
-    echo "|\  \    /  /|\  ___ \ |\   __  \|\  \|\   ____\|\  ___ \ |\   ___  \    "
-    echo "\ \  \  /  / | \   __/|\ \  \|\  \ \  \ \  \___|\ \   __/|\ \  \\ \  \   "
-    echo " \ \  \/  / / \ \  \_|/_\ \   _  _\ \  \ \  \  __\ \  \_|/_\ \  \\ \  \  "
-    echo "  \ \    / /   \ \  \_|\ \ \  \\  \\ \  \ \  \|\  \ \  \_|\ \ \  \\ \  \ "
-    echo "   \ \__/ /     \ \_______\ \__\\ _\\ \__\ \_______\ \_______\ \__\\ \__\\"
-    echo "    \|__|/       \|_______|\|__|\|__|\|__|\|_______|\|_______|\|__| \|__|"
+    echo " ___      ___ _______   ________  ___  ________  _______   ________        "
+    echo "|\  \    /  /|\  ___ \ |\   __  \|\  \|\   ____\|\  ___ \ |\   ___  \      "
+    echo "\ \  \  /  / | \   __/|\ \  \|\  \ \  \ \  \___|\ \   __/|\ \  \\ \  \     "
+    echo " \ \  \/  / / \ \  \_|/_\ \   _  _\ \  \ \  \  __\ \  \_|/_\ \  \\ \  \    "
+    echo "  \ \    / /   \ \  \_|\ \ \  \\  \\ \  \ \  \|\  \ \  \_|\ \ \  \\ \  \   "
+    echo "   \ \__/ /     \ \_______\ \__\\ _\\ \__\ \_______\ \_______\ \__\\ \__\  "
+    echo "    \|__|/       \|_______|\|__|\|__|\|__|\|_______|\|_______|\|__| \|__|  "
     echo
-    echo "===================================="
-    echo "       Welcome to Verigen v$VERIGEN_VERSION"
-    echo "   Type '.q' to exit this shell."
-    echo "   Type '.help' to display help message."
-    echo "===================================="
+    echo "========================================================================"
+    echo "                   Welcome to Verigen v$VERIGEN_VERSION"
+    echo "                       Type '.q' to exit this shell."
+    echo "                   Type '.help' to display help message."
+    echo "========================================================================"
 
     # 设置环境变量，只在当前会话有效
     set_env_variables
