@@ -1,4 +1,4 @@
-# Verigen
+# Welcome to VERIGEN!
 
 ```
  ___      ___ _______   ________  ___  ________  _______   ________      
@@ -12,14 +12,19 @@
 
 ### Author:
 **Albert Cheung (Lee-Khai Cheung)**
-
+**Email: albert.chg9@gmail.com**
 ---
 
 ## Installation and Configuration
 
 ### Prerequisites:
-- **Linux** (or any Unix-like OS)
-- **Verilog simulation tools** (e.g., `iverilog`, `vvp`, `yosys`, `netlistsvg`)
+- **Linux** (Fedora 41 best, or any Unix-like OS)
+- **Verigen tools**, include
+  - `iverilog`
+  - `yosys`
+  - `netlistsvg`
+  - `vvp`
+- *In fact, these are not necessary. If you don't, you can simply run it in the Verigen shell environment. Verigen has offered you these tools.*
 
 ### Steps to Install:
 
@@ -41,14 +46,14 @@
 
 ---
 
-## Usage
+## Simple Instructions
 
 ### Running Verigen:
 1. **Enter the interactive Verigen shell:**
    ```bash
    verigen
    ```
-   This will enter the Verigen interactive shell. From here, you can enter Verilog commands directly.
+   This will enter the Verigen interactive shell. From here, you can enter Verigen commands directly.
 
 2. **Run Verilog simulation:**
    ```bash
