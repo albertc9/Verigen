@@ -14,7 +14,7 @@
 **Albert Cheung (Lee-Khai Cheung)**
 
 **Email: albert.chg9@gmail.com**
----
+
 
 ## Installation and Configuration
 
@@ -99,5 +99,3 @@
 
 This software is released under the [MIT License](LICENSE).
 ```
-
----
