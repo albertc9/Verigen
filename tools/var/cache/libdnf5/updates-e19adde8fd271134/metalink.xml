@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metalink version="3.0" xmlns="http://www.metalinker.org/" type="dynamic" pubdate="Wed, 05 Feb 2025 15:52:47 GMT" generator="mirrormanager" xmlns:mm0="http://fedorahosted.org/mirrormanager">
+ <files>
+  <file name="repomd.xml">
+   <mm0:timestamp>1738726418</mm0:timestamp>
+   <size>5506</size>
+   <verification>
+    <hash type="md5">dbb6d2258aa904d11c988038e361963d</hash>
+    <hash type="sha1">4d6762103eef639f73dcaf37268353c24cc24648</hash>
+    <hash type="sha256">6515a842605361c1e29715ccdbb3e82a4cac4e0b28511191059f7aaffefd8831</hash>
+    <hash type="sha512">59f3dd6096bfb2d3c6c30bd277bbc889cd34291bbc19dd7173b5a27849ee7242946ccd8c57af0d0e967a9c918568b0db33f90d3e35eb6959be80abeb4891d0da</hash>
+   </verification>
+   <mm0:alternates>
+    <mm0:alternate>
+      <mm0:timestamp>1738631420</mm0:timestamp>
+      <size>5506</size>
+      <verification>
+       <hash type="md5">ddc6432e2169d1ed9850440993a67c9e</hash>
+       <hash type="sha1">00d6ee5063da0878d87fdd80a20d22891db56635</hash>
+       <hash type="sha256">6e5d23d3f4056c4194a9f048d1c7571ea7a3823a873f87229a32c4140a2cebc4</hash>
+       <hash type="sha512">e96bd9b4c272be2d9c7d4a656b7ae3222520e6b805d0368782b4957b921076e95540f92702342438a27870fc66e4b49a90876504b9ca4e10268cd4e01794a2dc</hash>
+      </verification>
+    </mm0:alternate>
+    <mm0:alternate>
+      <mm0:timestamp>1738545210</mm0:timestamp>
+      <size>5506</size>
+      <verification>
+       <hash type="md5">65f50c745a561c78c45b4a8e56bd99ab</hash>
+       <hash type="sha1">dbf90d71c39e457f2f7d665b88506a1cc70a26ac</hash>
+       <hash type="sha256">4517bc4dae8a61044cc1f805039654b2609594ec56548f06cf61917fdd3ef73a</hash>
+       <hash type="sha512">55f49b16d07181f731b4b8ff83336b3c1f2d91cd0c212a6e2a5a120f35fb41c12814c6f02c3dfa226c41d36128996ef47ca53e6e5105bc4e06669ea55e18a6a9</hash>
+      </verification>
+    </mm0:alternate>
+    <mm0:alternate>
+      <mm0:timestamp>1738460174</mm0:timestamp>
+      <size>5506</size>
+      <verification>
+       <hash type="md5">81b9175a1d1a50c9d10cdc972b278a19</hash>
+       <hash type="sha1">e115d51042a99e780b673866017467bfcd90089c</hash>
+       <hash type="sha256">56409bf2a8d715d6dcc4b65cecfef1a05bb292a78954b80959874851e335f764</hash>
+       <hash type="sha512">1d84264d4b112063216e4582ff6be8d1d8499314ae3adb4c8f0fdccabcf918e564e1e1bbb827a330e5522009952e4e48382478f893b993c5155af330e2985a3f</hash>
+      </verification>
+    </mm0:alternate>
+   </mm0:alternates>
+   <resources maxconnections="1">
+    <url protocol="rsync" type="rsync" location="TW" preference="100">rsync://mirror.twds.com.tw/fedora/linux/updates/41/Everything/x86_64/repodata/repomd.xml</url>
+    <url protocol="https" type="https" location="TW" preference="100">https://mirror.twds.com.tw/fedora/fedora/linux/updates/41/Everything/x86_64/repodata/repomd.xml</url>
+    <url protocol="http" type="http" location="TW" preference="100">http://mirror.twds.com.tw/fedora/fedora/linux/updates/41/Everything/x86_64/repodata/repomd.xml</url>
+    <url protocol="http" type="http" location="JP" preference="99">http://ftp.iij.ad.jp/pub/linux/Fedora/fedora/linux/updates/41/Everything/x86_64/repodata/repomd.xml</url>
+    <url protocol="rsync" type="rsync" location="JP" preference="99">rsync://ftp.iij.ad.jp/pub/linux/Fedora/fedora/linux/updates/41/Everything/x86_64/repodata/repomd.xml</url>
+    <url protocol="https" type="https" location="CN" preference="98">https://mirror.nyist.edu.cn/fedora/updates/41/Everything/x86_64/repodata/repomd.xml</url>
+    <url protocol="http" type="http" location="CN" preference="98">http://mirror.nyist.edu.cn/fedora/updates/41/Everything/x86_64/repodata/repomd.xml</url>
+    <url protocol="rsync" type="rsync" location="CN" preference="98">rsync://mirror.nyist.edu.cn/fedora/updates/41/Everything/x86_64/repodata/repomd.xml</url>
+    <url protocol="rsync" type="rsync" location="SG" preference="97">rsync://mirror.freedif.org/fedora/fedora/linux/updates/41/Everything/x86_64/repodata/repomd.xml</url>
+    <url protocol="http" type="http" location="SG" preference="97">http://mirror.freedif.org/fedora/fedora/linux/updates/41/Everything/x86_64/repodata/repomd.xml</url>
+    <url protocol="https" type="https" location="SG" preference="97">https://mirror.freedif.org/fedora/fedora/linux/updates/41/Everything/x86_64/repodata/repomd.xml</url>
+    <url protocol="http" type="http" location="JP" preference="96">http://ftp.riken.jp/Linux/fedora/updates/41/Everything/x86_64/repodata/repomd.xml</url>
+    <url protocol="rsync" type="rsync" location="JP" preference="96">rsync://ftp.riken.jp/fedora/updates/41/Everything/x86_64/repodata/repomd.xml</url>
+    <url protocol="https" type="https" location="JP" preference="96">https://ftp.riken.jp/Linux/fedora/updates/41/Everything/x86_64/repodata/repomd.xml</url>
+    <url protocol="https" type="https" location="CN" preference="95">https://mirrors.tuna.tsinghua.edu.cn/fedora/updates/41/Everything/x86_64/repodata/repomd.xml</url>
+    <url protocol="http" type="http" location="CN" preference="95">http://mirrors.tuna.tsinghua.edu.cn/fedora/updates/41/Everything/x86_64/repodata/repomd.xml</url>
+    <url protocol="rsync" type="rsync" location="CN" preference="95">rsync://mirrors.tuna.tsinghua.edu.cn/fedora/updates/41/Everything/x86_64/repodata/repomd.xml</url>
+    <url protocol="http" type="http" location="CN" preference="94">http://mirrors.sohu.com/fedora/updates/41/Everything/x86_64/repodata/repomd.xml</url>
+    <url protocol="rsync" type="rsync" location="CN" preference="94">rsync://mirrors.sohu.com/fedora/updates/41/Everything/x86_64/repodata/repomd.xml</url>
+    <url protocol="http" type="http" location="MY" preference="93">http://mirrors.ipserverone.com/fedora/fedora/linux/updates/41/Everything/x86_64/repodata/repomd.xml</url>
+    <url protocol="https" type="https" location="MY" preference="93">https://mirrors.ipserverone.com/fedora/fedora/linux/updates/41/Everything/x86_64/repodata/repomd.xml</url>
+    <url protocol="https" type="https" location="JP" preference="92">https://ftp.yz.yamagata-u.ac.jp/pub/linux/fedora-projects/fedora/linux/updates/41/Everything/x86_64/repodata/repomd.xml</url>
+    <url protocol="http" type="http" location="JP" preference="92">http://ftp.yz.yamagata-u.ac.jp/pub/linux/fedora-projects/fedora/linux/updates/41/Everything/x86_64/repodata/repomd.xml</url>
+    <url protocol="rsync" type="rsync" location="JP" preference="92">rsync://ftp.yz.yamagata-u.ac.jp/pub/linux/fedora-projects/fedora/linux/updates/41/Everything/x86_64/repodata/repomd.xml</url>
+    <url protocol="https" type="https" location="TW" preference="91">https://fedora.cs.nycu.edu.tw/fedora/linux/updates/41/Everything/x86_64/repodata/repomd.xml</url>
+    <url protocol="http" type="http" location="CN" preference="90">http://mirrors.jlu.edu.cn/fedora/updates/41/Everything/x86_64/repodata/repomd.xml</url>
+    <url protocol="https" type="https" location="CN" preference="90">https://mirrors.jlu.edu.cn/fedora/updates/41/Everything/x86_64/repodata/repomd.xml</url>
+    <url protocol="rsync" type="rsync" location="CN" preference="90">rsync://mirrors.jlu.edu.cn/fedora/updates/41/Everything/x86_64/repodata/repomd.xml</url>
+    <url protocol="https" type="https" location="KZ" preference="89">https://mirror.hoster.kz/fedora/fedora/linux/updates/41/Everything/x86_64/repodata/repomd.xml</url>
+    <url protocol="rsync" type="rsync" location="KZ" preference="89">rsync://mirror.hoster.kz/fedora-enchilada/linux/updates/41/Everything/x86_64/repodata/repomd.xml</url>
+    <url protocol="http" type="http" location="KZ" preference="89">http://mirror.hoster.kz/fedora/fedora/linux/updates/41/Everything/x86_64/repodata/repomd.xml</url>
+   </resources>
+  </file>
+ </files>
+</metalink>

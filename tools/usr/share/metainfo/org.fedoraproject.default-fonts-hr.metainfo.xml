@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="font">
+  <id>org.fedoraproject.default-fonts-hr</id>
+  <name>Croatian</name>
+  <summary>Localization Font support for Croatian</summary>
+  <description><p>
+        Core font package to install default font.
+      </p></description>
+  <metadata_license>CC0-1.0</metadata_license>
+</component>

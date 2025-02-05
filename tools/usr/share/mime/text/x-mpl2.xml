@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mime-type xmlns="http://www.freedesktop.org/standards/shared-mime-info" type="text/x-mpl2">
+  <!--Created automatically by update-mime-database. DO NOT EDIT!-->
+  <comment>MPlayer2 subtitles</comment>
+  <comment xml:lang="zh_CN">MPlayer2 字幕</comment>
+  <comment xml:lang="uk">субтитри MPlayer2</comment>
+  <comment xml:lang="tr">MPlayer2 alt yazıları</comment>
+  <comment xml:lang="sv">MPlayer2-undertexter</comment>
+  <comment xml:lang="sl">Podnaslovi MPlayer2</comment>
+  <comment xml:lang="si">MPlayer2 උපසිරැසි</comment>
+  <comment xml:lang="ru">Субтитры MPlayer2</comment>
+  <comment xml:lang="pt_BR">Legendas MPlayer2</comment>
+  <comment xml:lang="pl">Napisy MPlayer2</comment>
+  <comment xml:lang="nl">MPlayer2-ondertitels</comment>
+  <comment xml:lang="ko">MPlayer2 자막 파일</comment>
+  <comment xml:lang="kk">MPlayer2 субтитрлары</comment>
+  <comment xml:lang="ja">MPlayer2 字幕</comment>
+  <comment xml:lang="it">Sottotitoli MPlayer2</comment>
+  <comment xml:lang="hr">MPlayer2 podnaslovi</comment>
+  <comment xml:lang="fi">MPlayer2-tekstitykset</comment>
+  <comment xml:lang="eu">MPlayer2 azpitituluak</comment>
+  <comment xml:lang="es">subtítulos de MPlayer2</comment>
+  <comment xml:lang="en_GB">MPlayer2 subtitles</comment>
+  <comment xml:lang="de">MPlayer2-Untertitel</comment>
+  <comment xml:lang="be">субцітры MPlayer2</comment>
+  <comment xml:lang="ar">ترجمات MPlayer2</comment>
+  <sub-class-of type="text/plain"/>
+  <glob pattern="*.mpl"/>
+</mime-type>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="font">
+  <id>org.fedoraproject.default-fonts-core-sans</id>
+  <name>Latin</name>
+  <summary>sans-serif default font for Latin</summary>
+  <description><p>
+        sans-serif font package to install default font for Latin.
+      </p></description>
+  <metadata_license>CC0-1.0</metadata_license>
+</component>

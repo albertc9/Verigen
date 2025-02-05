@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- SPDX-License-Identifier: MIT -->
+<component type="font">
+  <id>org.fedoraproject.google-droid-sans-fonts</id>
+  <metadata_license>MIT</metadata_license>
+  <project_license>Apache-2.0</project_license>
+  <name>Google Droid Sans</name>
+  <summary><![CDATA[Droid Sans, a humanist sans-serif font family]]></summary>
+  <description>
+    <p><![CDATA[The Droid font family was designed in the fall of 2006 by Ascender’s Steve Matteson, as a commission from Google to create a set of system fonts for its Android platform. The goal was to provide optimal quality and comfort on a mobile handset when rendered in application menus, web browsers and for other screen text.]]></p><p><![CDATA[The family was later extended in collaboration with other designers such as Pascal Zoghbi of 29ArabicLetters.]]></p><p><![CDATA[Droid Sans is a humanist sans serif font family designed for user interfaces and electronic communication.]]></p><p><![CDATA[The Arabic block was initially designed by Steve Matteson of Ascender under the Droid Kufi name, with consulting by Pascal Zoghbi of 29ArabicLetters to finalize the font family.]]></p>
+  </description>
+  <updatecontact>fonts@lists.fedoraproject.org</updatecontact>
+  <url type="homepage">https://android.googlesource.com/</url>
+  <releases>
+    <release version="20200215-21.fc41" date="2024-07-18"/>
+  </releases>
+  <provides>
+    <font>Droid Arabic Kufi Bold</font>
+    <font>Droid Arabic Kufi</font>
+    <font>Droid Sans Armenian</font>
+    <font>Droid Sans Bold</font>
+    <font>Droid Sans Devanagari</font>
+    <font>Droid Sans Ethiopic Bold</font>
+    <font>Droid Sans Ethiopic</font>
+    <font>Droid Sans Fallback</font>
+    <font>Droid Sans Georgian</font>
+    <font>Droid Sans Hebrew Bold</font>
+    <font>Droid Sans Hebrew</font>
+    <font>Droid Sans Japanese</font>
+    <font>Droid Sans Tamil Bold</font>
+    <font>Droid Sans Tamil</font>
+    <font>Droid Sans Thai</font>
+    <font>Droid Sans</font>
+  </provides>
+  <languages>
+    <lang>aa</lang>
+    <lang>ab</lang>
+    <lang>af</lang>
+    <lang>agr</lang>
+    <lang>am</lang>
+    <lang>an</lang>
+    <lang>anp</lang>
+    <lang>ar</lang>
+    <lang>av</lang>
+    <lang>ay</lang>
+    <lang>ayc</lang>
+    <lang>az-ir</lang>
+    <lang>ba</lang>
+    <lang>be</lang>
+    <lang>bem</lang>
+    <lang>bg</lang>
+    <lang>bh</lang>
+    <lang>bhb</lang>
+    <lang>bho</lang>
+    <lang>bi</lang>
+    <lang>bin</lang>
+    <lang>br</lang>
+    <lang>brx</lang>
+    <lang>bs</lang>
+    <lang>bua</lang>
+    <lang>byn</lang>
+    <lang>ca</lang>
+    <lang>ce</lang>
+    <lang>ch</lang>
+    <lang>chm</lang>
+    <lang>ckb</lang>
+    <lang>cmn</lang>
+    <lang>co</lang>
+    <lang>crh</lang>
+    <lang>cs</lang>
+    <lang>csb</lang>
+    <lang>cu</lang>
+    <lang>cv</lang>
+    <lang>cy</lang>
+    <lang>da</lang>
+    <lang>de</lang>
+    <lang>doi</lang>
+    <lang>dsb</lang>
+    <lang>el</lang>
+    <lang>en</lang>
+    <lang>eo</lang>
+    <lang>es</lang>
+    <lang>et</lang>
+    <lang>eu</lang>
+    <lang>fa</lang>
+    <lang>fi</lang>
+    <lang>fil</lang>
+    <lang>fj</lang>
+    <lang>fo</lang>
+    <lang>fr</lang>
+    <lang>fur</lang>
+    <lang>fy</lang>
+    <lang>gd</lang>
+    <lang>gez</lang>
+    <lang>gl</lang>
+    <lang>gn</lang>
+    <lang>gv</lang>
+    <lang>hak</lang>
+    <lang>he</lang>
+    <lang>hi</lang>
+    <lang>hif</lang>
+    <lang>hne</lang>
+    <lang>ho</lang>
+    <lang>hr</lang>
+    <lang>hsb</lang>
+    <lang>ht</lang>
+    <lang>hu</lang>
+    <lang>hy</lang>
+    <lang>ia</lang>
+    <lang>id</lang>
+    <lang>ie</lang>
+    <lang>ig</lang>
+    <lang>ik</lang>
+    <lang>io</lang>
+    <lang>is</lang>
+    <lang>it</lang>
+    <lang>ja</lang>
+    <lang>jv</lang>
+    <lang>ka</lang>
+    <lang>kaa</lang>
+    <lang>ki</lang>
+    <lang>kj</lang>
+    <lang>kk</lang>
+    <lang>kl</lang>
+    <lang>kok</lang>
+    <lang>ku-iq</lang>
+    <lang>ku-ir</lang>
+    <lang>ku-tr</lang>
+    <lang>kum</lang>
+    <lang>kv</lang>
+    <lang>kwm</lang>
+    <lang>ky</lang>
+    <lang>la</lang>
+    <lang>lah</lang>
+    <lang>lb</lang>
+    <lang>lez</lang>
+    <lang>lg</lang>
+    <lang>li</lang>
+    <lang>lij</lang>
+    <lang>lt</lang>
+    <lang>lv</lang>
+    <lang>lzh</lang>
+    <lang>mag</lang>
+    <lang>mai</lang>
+    <lang>mfe</lang>
+    <lang>mg</lang>
+    <lang>mh</lang>
+    <lang>mhr</lang>
+    <lang>miq</lang>
+    <lang>mjw</lang>
+    <lang>mk</lang>
+    <lang>mn-mn</lang>
+    <lang>mo</lang>
+    <lang>mr</lang>
+    <lang>ms</lang>
+    <lang>mt</lang>
+    <lang>na</lang>
+    <lang>nb</lang>
+    <lang>nds</lang>
+    <lang>ne</lang>
+    <lang>ng</lang>
+    <lang>nhn</lang>
+    <lang>niu</lang>
+    <lang>nl</lang>
+    <lang>nn</lang>
+    <lang>no</lang>
+    <lang>nr</lang>
+    <lang>nso</lang>
+    <lang>ny</lang>
+    <lang>oc</lang>
+    <lang>om</lang>
+    <lang>os</lang>
+    <lang>ota</lang>
+    <lang>pa-pk</lang>
+    <lang>pap-an</lang>
+    <lang>pap-aw</lang>
+    <lang>pl</lang>
+    <lang>ps-af</lang>
+    <lang>ps-pk</lang>
+    <lang>pt</lang>
+    <lang>raj</lang>
+    <lang>rm</lang>
+    <lang>rn</lang>
+    <lang>ro</lang>
+    <lang>ru</lang>
+    <lang>rw</lang>
+    <lang>sa</lang>
+    <lang>sah</lang>
+    <lang>sat</lang>
+    <lang>sc</lang>
+    <lang>sd</lang>
+    <lang>se</lang>
+    <lang>sel</lang>
+    <lang>sg</lang>
+    <lang>sh</lang>
+    <lang>sid</lang>
+    <lang>sk</lang>
+    <lang>sl</lang>
+    <lang>sma</lang>
+    <lang>smj</lang>
+    <lang>smn</lang>
+    <lang>sn</lang>
+    <lang>so</lang>
+    <lang>sq</lang>
+    <lang>sr</lang>
+    <lang>ss</lang>
+    <lang>st</lang>
+    <lang>su</lang>
+    <lang>sv</lang>
+    <lang>sw</lang>
+    <lang>szl</lang>
+    <lang>ta</lang>
+    <lang>tg</lang>
+    <lang>th</lang>
+    <lang>the</lang>
+    <lang>ti-er</lang>
+    <lang>ti-et</lang>
+    <lang>tig</lang>
+    <lang>tk</lang>
+    <lang>tl</lang>
+    <lang>tn</lang>
+    <lang>tpi</lang>
+    <lang>tr</lang>
+    <lang>ts</lang>
+    <lang>tt</lang>
+    <lang>ty</lang>
+    <lang>tyv</lang>
+    <lang>ug</lang>
+    <lang>uk</lang>
+    <lang>unm</lang>
+    <lang>ur</lang>
+    <lang>uz</lang>
+    <lang>vo</lang>
+    <lang>vot</lang>
+    <lang>wa</lang>
+    <lang>wae</lang>
+    <lang>wal</lang>
+    <lang>wen</lang>
+    <lang>wo</lang>
+    <lang>xh</lang>
+    <lang>yap</lang>
+    <lang>yi</lang>
+    <lang>yuw</lang>
+    <lang>za</lang>
+    <lang>zh-tw</lang>
+    <lang>zu</lang>
+  </languages>
+</component>

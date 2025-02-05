@@ -1,0 +1,19 @@
+Larry Siden, lsiden@gmail.com, http://www.umich.edu/~lsiden is the original
+author.
+
+Edward H. Trager <ed.trager@gmail.com> and Ritu Khanna <rituk@umich.edu>
+have contributed a number of bug fixes, made a number of modifications, and
+enhanced the examples and documentation.
+
+Alan W. Irwin <irwin@beluga.phys.uvic.ca> cleaned up a number of problems in
+the autotools-based build system of earlier versions and later replaced that
+build system with a CMake-based one.
+
+Andrew Ross <andrewross@users.sourceforge.net> has done essential bug
+fixing to make libLASi more robust against font problems and helped with
+the "missing glyphs" example.
+
+Werner Smekal <smekal@users.sourceforge.net> has helped with Windows-related
+(Cygwin, MinGW, MinGW/MSYS, and commercial Windows compilers) testing and
+fixes.
+

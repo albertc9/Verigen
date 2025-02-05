@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mime-type xmlns="http://www.freedesktop.org/standards/shared-mime-info" type="application/x-bat">
+  <!--Created automatically by update-mime-database. DO NOT EDIT!-->
+  <comment>DOS/Windows batch file</comment>
+  <comment xml:lang="uk">пакетний файл DOS/Windows</comment>
+  <comment xml:lang="sv">DOS/Windows-batchfil</comment>
+  <comment xml:lang="pl">Plik wsadowy DOS/Windows</comment>
+  <comment xml:lang="it">File batch DOS/Windows</comment>
+  <comment xml:lang="gl">Ficheiro en lote DOS/Windows</comment>
+  <comment xml:lang="es">archivo por lotes de DOS/Windows</comment>
+  <comment xml:lang="de">DOS/Windows Stapelverarbeitungs-Datei</comment>
+  <sub-class-of type="text/plain"/>
+  <alias type="application/bat"/>
+  <generic-icon name="text-x-script"/>
+  <glob pattern="*.bat"/>
+</mime-type>

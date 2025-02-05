@@ -1,0 +1,96 @@
+#!/bin/bash
+
+VERIGEN_VERSION="1.0"
+WORKDIR=$(pwd)
+
+# 进入 Verigen Shell 交互模式
+function enter_shell() {
+    clear
+    echo "===================================="
+    echo "       Welcome to Verigen v$VERIGEN_VERSION"
+    echo "   Type '.q' to exit this shell."
+    echo "===================================="
+
+    while true; do
+        echo -n "> "  # 交互式提示符
+        read -r CMD
+        if [[ "$CMD" == ".q" ]]; then
+            echo "Exiting Verigen..."
+            break
+        fi
+        eval "$CMD"
+    done
+}
+
+# 处理 Verilog 仿真
+function run_simulation() {
+    local dut="$1"
+    local testbench="$2"
+    
+    if [[ ! -f "$dut" || ! -f "$testbench" ]]; then
+        echo "Error: Verilog files not found."
+        exit 1
+    fi
+    
+    echo "Running simulation..."
+    iverilog -o simv "$testbench" "$dut"
+    vvp simv
+    rm -f simv
+}
+
+# 生成 Netlist 和 SVG
+function generate_netlist() {
+    local dut="$1"
+    local json_file="${dut%.v}.json"
+    local svg_file="${dut%.v}.svg"
+
+    # 生成 JSON
+    echo "read_verilog $dut" > script.ys
+    echo "proc; opt" >> script.ys
+    echo "write_json $json_file" >> script.ys
+    yosys script.ys
+    rm -f script.ys
+    echo "Netlist JSON generated: $json_file"
+
+    # 生成 SVG
+    netlistsvg "$json_file"
+    echo "Netlist SVG generated: $svg_file"
+}
+
+# 解析用户输入参数
+case "$1" in
+    "")
+        enter_shell
+        ;;
+    "-a" | "-all")
+        if [[ -z "$2" ]]; then
+            echo "Error: No Verilog file provided."
+            exit 1
+        fi
+        generate_netlist "$2"
+        ;;
+    "-j")
+        if [[ -z "$2" ]]; then
+            echo "Error: No Verilog file provided."
+            exit 1
+        fi
+        generate_netlist "$2"
+        rm -f "${2%.v}.svg"
+        ;;
+    "-s")
+        if [[ -z "$2" ]]; then
+            echo "Error: No Verilog file provided."
+            exit 1
+        fi
+        generate_netlist "$2"
+        rm -f "${2%.v}.svg"
+        ;;
+    *)
+        if [[ -f "$1" && -f "$2" ]]; then
+            run_simulation "$1" "$2"
+        else
+            echo "Error: Invalid command or missing files."
+            exit 1
+        fi
+        ;;
+esac

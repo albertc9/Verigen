@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mime-type xmlns="http://www.freedesktop.org/standards/shared-mime-info" type="x-content/ebook-reader">
+  <!--Created automatically by update-mime-database. DO NOT EDIT!-->
+  <comment>E-book reader</comment>
+  <comment xml:lang="uk">пристрій для читання ел. книг</comment>
+  <comment xml:lang="sv">E-bokläsare</comment>
+  <comment xml:lang="pt_BR">Leitor de e-book</comment>
+  <comment xml:lang="pl">Czytnik e-booków</comment>
+  <comment xml:lang="it">Lettore e-book</comment>
+  <comment xml:lang="gl">Lector de libros electrónicos</comment>
+  <comment xml:lang="es">lector de libros electrónicos</comment>
+  <comment xml:lang="de">E-Book-Leser</comment>
+</mime-type>

@@ -1,0 +1,16 @@
+GPL-3.0-or-later: imagequant v4.3.3
+GPL-3.0-or-later: imagequant-sys v4.0.3
+MIT OR Apache-2.0: arrayvec v0.7.4
+MIT OR Apache-2.0: bitflags v2.6.0
+MIT OR Apache-2.0: cfg-if v1.0.0
+MIT OR Apache-2.0: crossbeam-deque v0.8.5
+MIT OR Apache-2.0: crossbeam-epoch v0.9.18
+MIT OR Apache-2.0: crossbeam-utils v0.8.20
+MIT OR Apache-2.0: either v1.13.0
+MIT OR Apache-2.0: libc v0.2.155
+MIT OR Apache-2.0: once_cell v1.19.0
+MIT OR Apache-2.0: rayon v1.10.0
+MIT OR Apache-2.0: rayon-core v1.12.1
+MIT OR Apache-2.0: thread_local v1.1.8
+MIT: rgb v0.8.47
+Zlib OR Apache-2.0 OR MIT: bytemuck v1.16.3

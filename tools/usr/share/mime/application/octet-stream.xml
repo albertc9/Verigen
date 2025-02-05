@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mime-type xmlns="http://www.freedesktop.org/standards/shared-mime-info" type="application/octet-stream">
+  <!--Created automatically by update-mime-database. DO NOT EDIT!-->
+  <comment>Unknown</comment>
+  <comment xml:lang="uk">невідомий</comment>
+  <comment xml:lang="sv">Okänd</comment>
+  <comment xml:lang="pt_BR">Desconhecido</comment>
+  <comment xml:lang="pl">Nieznany typ</comment>
+  <comment xml:lang="it">Sconosciuto</comment>
+  <comment xml:lang="gl">Descoñecido</comment>
+  <comment xml:lang="es">desconocido</comment>
+  <comment xml:lang="de">Unbekannt</comment>
+</mime-type>
