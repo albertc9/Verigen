@@ -1,8 +1,97 @@
 # Verigen
-A Verilog Generate Anything Tool
 
-Verigen这个开源工具的操作逻辑如下：
+```
+ ___      ___ _______   ________  ___  ________  _______   ________      
+|\  \    /  /|\  ___ \ |\   __  \|\  \|\   ____\|\  ___ \ |\   ___  \    
+\ \  \  /  / | \   __/|\ \  \|\  \ \  \ \  \___|\ \   __/|\ \  \\ \  \   
+ \ \  \/  / / \ \  \_|/_\ \   _  _\ \  \ \  \  __\ \  \_|/_\ \  \\ \  \  
+  \ \    / /   \ \  \_|\ \ \  \\  \\ \  \ \  \|\  \ \  \_|\ \ \  \\ \  \ 
+   \ \__/ /     \ \_______\ \__\\ _\\ \__\ \_______\ \_______\ \__\\ \__\
+    \|__|/       \|_______|\|__|\|__|\|__|\|_______|\|_______|\|__| \|__|
+```
 
-1. 单独输入`verigen`时：进入一个操作环境（如输入python或输入root一样，在terminal中进入一个操作环境，这里有预先下载好的iverilog, yosys, netlistsvg（后文统称verigen套件(verigen tools)），从而我可以在外部没有预先安装这些工具的情况下运行指令。在这个环境内，一切命令如故，就好像进入了一个装有以上工具的conda容器一样（除了没有用户名，以及将每一句命令的开头换成'>'。设计一个简单的欢迎界面，用于提示版本等信息。输入`.q`即可退出环境。
-2. 在预装了verigen套件的terminal中，或者在verigen环境中：输入格式形如`verigen dut.v testbench.v`或`verigen testbench.v dut.v`时，执行`iverilog`的模拟命令，生成一个中间`simv`文件后，直接自动完成模拟，然后删除中间文件`simv`。也就是说，不需要多步操作，只需要一个命令即可完成模拟。
-3. 在预装了verigen套件的terminal中，或者在verigen环境中：输入格式形如`verigen dut.v`或`verigen -a dut.v`或`verigen -all dut.v`，则输出`.json`和`.svg`两个文件；如果添加参数`verigen -j dut.v`，只输出`.json`文件；如果添加参数`verigen -s dut.v`，在输出`.json`和`.svg`后，删除`.svg`文件。
+### Author:
+**Albert Cheung (Lee-Khai Cheung)**
+
+---
+
+## Installation and Configuration
+
+### Prerequisites:
+- **Linux** (or any Unix-like OS)
+- **Verilog simulation tools** (e.g., `iverilog`, `vvp`, `yosys`, `netlistsvg`)
+
+### Steps to Install:
+
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/yourusername/verigen.git
+   cd verigen
+   ```
+
+2. **Build and configure:**
+   Make sure your environment is properly set up to run Verigen.
+   Inside the `verigen` directory, run:
+   ```bash
+   ./build
+   ```
+
+3. **Add `verigen` to your environment:**
+   After installation, you should be able to run `verigen` directly from anywhere in the terminal.
+
+---
+
+## Usage
+
+### Running Verigen:
+1. **Enter the interactive Verigen shell:**
+   ```bash
+   verigen
+   ```
+   This will enter the Verigen interactive shell. From here, you can enter Verilog commands directly.
+
+2. **Run Verilog simulation:**
+   ```bash
+   verigen testbench.v dut.v
+   ```
+   This will run a simulation using the `iverilog` compiler and `vvp` simulation tool. It will generate output and remove intermediate files (`simv`).
+
+3. **Generate netlist and SVG:**
+   ```bash
+   verigen -a dut.v
+   ```
+   This command generates a JSON netlist and an SVG diagram for the given Verilog file.
+
+4. **Generate only netlist (no SVG):**
+   ```bash
+   verigen -j dut.v
+   ```
+   This command generates only the JSON netlist without the SVG diagram.
+
+5. **Generate netlist and SVG, then delete SVG:**
+   ```bash
+   verigen -s dut.v
+   ```
+   This command generates both the JSON netlist and the SVG diagram, then deletes the SVG file after generation.
+
+6. **Check Verigen version:**
+   ```bash
+   verigen --version
+   ```
+   Displays the current version of Verigen.
+
+7. **Get help:**
+   Inside the interactive shell, type:
+   ```bash
+   .help
+   ```
+   This will show you a list of all available commands and options in Verigen.
+
+---
+
+## License
+
+This software is released under the [MIT License](LICENSE).
+```
+
+---
