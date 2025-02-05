@@ -38,10 +38,10 @@
    Make sure your environment is properly set up to run Verigen.
    Inside the `verigen` directory, run:
    ```bash
+   chmod +x build
    ./build
    ```
 
-3. **Add `verigen` to your environment:**
    After installation, you should be able to run `verigen` directly from anywhere in the terminal.
 
 ---
