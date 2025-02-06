@@ -54,13 +54,20 @@
    ```bash
    verigen
    ```
-   This will enter the Verigen interactive shell. From here, you can enter Verigen commands directly.
+   This will enter the Verigen interactive shell. From here, you can enter Verigen commands directly. You can also type commands directly into the terminal.
 
 2. **Run Verilog simulation:**
    ```bash
    verigen testbench.v dut.v
    ```
-   This will run a simulation using the `iverilog` compiler and `vvp` simulation tool. It will generate output and remove intermediate files (`simv`).
+   This will run a simulation. If you add codes like
+   ```Verilog
+   initial begin
+      $dumpfile("testbench.vcd");
+      $dumpvars(0, testbench);
+   end
+   ```
+   to your testbench code, you'll additionally get a `.vcd` file.
 
 3. **Generate netlist and SVG:**
    ```bash
@@ -74,17 +81,17 @@
    ```
    This command generates only the JSON netlist without the SVG diagram.
 
-5. **Generate netlist and SVG, then delete SVG:**
+5. **Generate only SVG (no netlist):**
    ```bash
    verigen -s dut.v
    ```
-   This command generates both the JSON netlist and the SVG diagram, then deletes the SVG file after generation.
+   This command generates only the SVG diagram without the netlist.
 
 6. **Check Verigen version:**
    ```bash
    verigen --version
    ```
-   Displays the current version of Verigen.
+   Displays the current version of Verigen. And can also verify installation and configuration.
 
 7. **Get help:**
    Inside the interactive shell, type:
