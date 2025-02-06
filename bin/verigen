@@ -1,6 +1,6 @@
 #!/bin/bash
 
-VERIGEN_VERSION="1.0"
+VERIGEN_VERSION="1.1"
 WORKDIR=$(pwd)
 TOOLS_DIR="$WORKDIR/tools"
 
