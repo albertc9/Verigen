@@ -120,7 +120,24 @@ case "$1" in
         fi
         generate_netlist "$2"
         ;;
-    "-j" | "-json")
+    "-j" | "-json")    generate_netlist "$2"
+            ;;
+        "-j" | "-json")
+            if [[ -z "$2" ]]; then
+                echo "Error: No Verilog file provided."
+                exit 1
+            fi
+            generate_netlist "$2"
+            rm -f "${2%.v}.json"
+            ;;
+        "-s" | "-svg")
+            if [[ -z "$2" ]]; then
+                echo "Error: No Verilog file provided."
+                exit 1
+            fi
+            generate_netlist "$2"
+            rm -f "${2%.v}.json"
+            ;;
         if [[ -z "$2" ]]; then
             echo "Error: No Verilog file provided."
             exit 1
