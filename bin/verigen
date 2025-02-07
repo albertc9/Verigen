@@ -4,7 +4,6 @@ VERIGEN_VERSION="1.1"
 WORKDIR=$(pwd)
 TOOLS_DIR="$WORKDIR/tools"
 
-# 设置环境变量，确保在 verigen 环境内可以引用工具
 function set_env_variables() {
     export PATH="$TOOLS_DIR/iverilog/bin:$TOOLS_DIR/yosys/bin:$TOOLS_DIR/netlistsvg/bin:$PATH"
     export LD_LIBRARY_PATH="$TOOLS_DIR/iverilog/lib:$TOOLS_DIR/yosys/lib:$LD_LIBRARY_PATH"
