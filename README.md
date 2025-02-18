@@ -7,13 +7,15 @@
  \ \  \/  / / \ \  \_|/_\ \   _  _\ \  \ \  \  __\ \  \_|/_\ \  \\ \  \  
   \ \    / /   \ \  \_|\ \ \  \\  \\ \  \ \  \|\  \ \  \_|\ \ \  \\ \  \ 
    \ \__/ /     \ \_______\ \__\\ _\\ \__\ \_______\ \_______\ \__\\ \__\
-    \|__|/       \|_______|\|__|\|__|\|__|\|_______|\|_______|\|__| \|__|
+    \|__|/       \|_______|\|__|\|__|\|__|\|_______|\|_______|\|__| \|__|  Version: 1.1
 ```
 
 ### Author:
 **Albert Cheung (Lee-Khai Cheung)**
 
 **Email: albert.chg9@gmail.com**
+
+*Docs: https://albertc9.github.io/2025/02/18/verigen-docs/*
 
 
 ## Installation and Configuration
@@ -32,7 +34,7 @@
 1. **Clone the repository:**
    ```bash
    git clone https://github.com/albertc9/Verigen.git
-   cd verigen
+   cd Verigen
    ```
 
 2. **Build and configure:**
@@ -105,4 +107,8 @@
 ## License
 
 This software is released under the [MIT License](LICENSE).
-```
+
+
+*For more information, please refer to the document or contact author.*
+
+*Docs: https://albertc9.github.io/2025/02/18/verigen-docs/*
