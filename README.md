@@ -110,6 +110,6 @@ This software is released under the [MIT License](LICENSE).
 
 ---
 
-*For more information, please refer to the document or contact author.*
+*For more information, please refer to the document:*
 
 *Docs: https://albertc9.github.io/2025/02/18/verigen-docs/*
